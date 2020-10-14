@@ -1,0 +1,22 @@
+{
+  "name": "beullogue-v2",
+  "version": "1.0.0",
+  "description": "Bloggin app for Yash Aryan",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Yash Aryan",
+  "license": "MIT",
+  "dependencies": {
+    "async-prompt": "^1.0.1",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "config": "^3.3.2",
+    "figlet": "^1.5.0",
+    "mongoose": "^5.10.8",
+    "waait": "^1.0.5"
+  }
+}
