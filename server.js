@@ -66,7 +66,8 @@ const passwordChecking = async (msg) => {
   const password = await passwordPrompting(msg);
 
   //enter the hash of your password here
-  const passwordHash = "$2a$10$utoe1mEOLGLyvLuMDmZklOhoD0.6XH.nfGJJc9LANOSMG.af7c4Z2"
+  const passwordHash =
+    '$2a$10$LFr1Hm6mcBAJHQp5etJ1be11XiVojdKYnKqYzHX.Dn36qgC8P5N02';
   //check if the password was correctly entered or not
   bcrypt.compare(password, passwordHash, async (err, res) => {
     if (res) {
